@@ -3,7 +3,7 @@ from pathlib import Path
 
 PASTA_PROJETO = Path(__file__).resolve().parents[2]
 
-PASTA_DADOS = PASTA_PROJETO / "dados"
+PASTA_DADOS = PASTA_PROJETO / "data"
 
 # coloque abaixo o caminho para os arquivos de dados de seu projeto
 DADOS_ORIGINAIS = PASTA_DADOS / "ml_project1_data.csv"
