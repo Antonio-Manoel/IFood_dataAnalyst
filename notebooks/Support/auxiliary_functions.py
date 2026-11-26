@@ -7,6 +7,7 @@ from sklearn.metrics import silhouette_score
 import os
 import numpy as np
 
+RANDOM_STATE = 42
 
 os.environ["OMP_NUM_THREADS"] = "9"
 
